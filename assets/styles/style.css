@@ -1,0 +1,90 @@
+/* <--!color: Define a cor do texto.
+background-color: Define a cor de fundo de um elemento.
+font-size: Define o tamanho da fonte do texto.
+margin: Define as margens externas de um elemento.
+padding: Define as margens internas de um elemento.
+border: Define a borda de um elemento.
+display: Define o comportamento de exibição do elemento (bloco, inline, etc.).
+position: Define o posicionamento do elemento na página (static, relative, absolute, fixed, etc.).----> */
+#texto{
+  background-colo;  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero-image {
+  background-image: url("/assets/imagens/capa.jpeg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.cantainer{
+h1{
+
+  background-color: aqua;
+}
+
+
+}
+.container {
+  .topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    .logo {
+      position: relative;
+      left: 50px;
+      background-color: transparent;
+      > img {
+        height: 150px;
+      }
+    }
+    .barra-tarefas {
+      display: flex;
+      flex-grow: 1;
+      margin-top: 18px;
+      background-color: rgb(241, 9, 222);
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      justify-content: flex-end;
+      .menu-lista {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        padding-right: 40px;
+        > li > a {
+          box-decoration-break: slice;
+          background: 12px;
+          color: #fff;
+          font-size: 22px;
+          text-decoration: none;
+          font-weight: 400;
+          font-family: "Roboto";
+        }
+        .button {
+          display: inline-block;
+          padding: 15px 25px;
+          font-size: 24px;
+          cursor: pointer;
+          text-align: center;
+          text-decoration: none;
+          outline: none;
+          color: #a0056c;
+          background-color: #fcd5ef;
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px #e4d3df;
+
+          background-color: 15px #3e8e41;
+          box-shadow: 0 5px #b11d8c;
+          transform: translateY(4px);
+        }
+      }
+    }
+  }
+}
